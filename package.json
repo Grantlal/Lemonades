@@ -5,9 +5,11 @@
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "predeploy": "npm run build",
-    "start": "node src/main.js"
+    "deploy": "surge --project . --domain vue-2-simple-routing-example.surge.sh",
+    "start": "serve -s build"
   },
   "dependencies": {
+    "serve": "^14.2.0",
     "vue": "^2.3.3"
   },
   "devDependencies": {
