@@ -1,3 +1,3 @@
 "scripts": {
-  "start": "node main.js"
+  "start": "serve -s build"
 }
