@@ -1,3 +1,1 @@
-"scripts": {
-  "start": "serve -s build"
-}
+web: npm start
