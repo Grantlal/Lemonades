@@ -39,6 +39,6 @@
 
 <style scoped>
   .active {
-    color: cornflowerblue;
+    color: rgb(31, 158, 59);
   }
 </style>

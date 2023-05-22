@@ -1,11 +1,10 @@
 <template>
   <div class="container">
-    <ul>
-      <li>
+      <li id="routerList">
         <v-link href="/">Home</v-link>
-        <v-link href="/about">About</v-link>
+        <v-link href="/calendar">Calendar</v-link>
+        <v-link href="/registry">Registry</v-link>
       </li>
-    </ul>
 
     <slot></slot>
   </div>
@@ -26,6 +25,11 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 15px 30px;
-    background: #f9f7f5;
+    background: #d9f5c3;
+  }
+  #routerList {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 1px;
   }
 </style>
