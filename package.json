@@ -6,7 +6,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "predeploy": "npm run build",
     "deploy": "surge --project . --domain vue-2-simple-routing-example.surge.sh",
-    "start": "npm start --port 3000"
+    "start": "npm start --port 80"
   },
   "dependencies": {
     "vue": "^2.3.3"
