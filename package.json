@@ -1,13 +1,12 @@
 {
-  "name": "vue-2.0-simple-routing-example",
-  "description": "A Vue.js project",
-  "author": "Chris Fritz <chrisvfritz@gmail.com>",
-  "private": true,
+  "name": "Lemonades",
+  "description": "A Vue.js project for the Lemonades",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "predeploy": "npm run build",
-    "deploy": "surge --project . --domain vue-2-simple-routing-example.surge.sh"
+    "deploy": "surge --project . --domain vue-2-simple-routing-example.surge.sh",
+    "start": "node index.js"
   },
   "dependencies": {
     "vue": "^2.3.3"
