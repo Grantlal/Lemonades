@@ -3,10 +3,9 @@
   "description": "A Vue.js project for the Lemonades",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
-    "build": "webpack",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "predeploy": "npm run build",
-    "deploy": "surge --project . --domain vue-2-simple-routing-example.surge.sh",
-    "start": "npm start"
+    "start": "npm run serve"
   },
   "dependencies": {
     "vue": "^2.3.3"
