@@ -5,8 +5,8 @@
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack",
     "predeploy": "npm run build",
-    "deploy": "serve -s build",
-    "start": "serve -s build"
+    "deploy": "node server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "serve": "^14.2.0",
