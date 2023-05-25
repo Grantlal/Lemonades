@@ -6,7 +6,7 @@
     "build": "cross-env NODE_ENV=production webpack",
     "predeploy": "npm run build",
     "deploy": "node server.js",
-    "start": "node server.js"
+    "start": "serve -s "
   },
   "dependencies": {
     "serve": "^14.2.0",
