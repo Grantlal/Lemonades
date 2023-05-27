@@ -4,7 +4,8 @@
     <img src="images/fair.jpg" id="fairPic"><img>
     <ul id="registryList">
       <li><a href="https://www.target.com/p/kitchenaid-5-5-quart-bowl-lift-stand-mixer-ksm55/-/A-88857295?preselect=88347594#lnk=sametab">Ice Blue Mixer</a></li>
-      <li>Burrito</li>
+      <li>Breville Espresso Machine</li>
+      <li>Burritos</li>
     </ul>
 
   </main-layout>
@@ -26,6 +27,6 @@
 }
 
 #fairPic {
-  max-width: 600px;
+  max-width: 800px;
 }
 </style>

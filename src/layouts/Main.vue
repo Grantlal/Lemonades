@@ -4,6 +4,7 @@
         <v-link href="/">Home</v-link>
         <v-link href="/calendar">Calendar</v-link>
         <v-link href="/registry">Registry</v-link>
+        <v-link href="/pictures">Pictures</v-link>
       </li>
 
     <slot></slot>
@@ -22,7 +23,7 @@
 
 <style scoped>
   .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 15px 30px;
     background: #d9f5c3;

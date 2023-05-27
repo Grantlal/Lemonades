@@ -1,5 +1,6 @@
 export default {
   '/': 'Home',
   '/calendar': 'Calendar',
-  '/registry': 'Registry'
+  '/registry': 'Registry',
+  '/pictures': 'Pictures'
 }
