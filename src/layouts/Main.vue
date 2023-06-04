@@ -2,7 +2,7 @@
   <div class="container">
       <li id="routerList">
         <v-link href="/">Home</v-link>
-        <v-link href="/calendar">Calendar</v-link>
+        <v-link href="/Other-Pictures">Other-Pictures</v-link>
         <v-link href="/registry">Registry</v-link>
         <v-link href="/pictures">Pictures</v-link>
       </li>
